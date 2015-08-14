@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAnimeGuide", "MyAnimeGuide\MyAnimeGuide.csproj", "{3C39845A-D6E2-4A86-99C0-B4634967FF6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{F92CDF37-CE77-4581-99B0-D3CBF0FD05E7}"
+	ProjectSection(SolutionItems) = preProject
+		MyAnimeGuide\AnimeData.cs = MyAnimeGuide\AnimeData.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "View", "View", "{88BBF104-9031-468E-8DAC-1B41BD453CC1}"
+	ProjectSection(SolutionItems) = preProject
+		MyAnimeGuide\MainWindow.xaml = MyAnimeGuide\MainWindow.xaml
+		MyAnimeGuide\MainWindow.xaml.cs = MyAnimeGuide\MainWindow.xaml.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModel", "ViewModel", "{08B4E0E3-1DAF-4C35-BE2A-5E515EF251E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Util", "Util", "{1B88423E-3389-4680-A744-8C41784B1289}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C39845A-D6E2-4A86-99C0-B4634967FF6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C39845A-D6E2-4A86-99C0-B4634967FF6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C39845A-D6E2-4A86-99C0-B4634967FF6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C39845A-D6E2-4A86-99C0-B4634967FF6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
