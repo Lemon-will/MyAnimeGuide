@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MyAnimeGuide.ViewModel;
 
 namespace MyAnimeGuide
 {
@@ -23,7 +24,7 @@ namespace MyAnimeGuide
         public MainWindow()
         {
             InitializeComponent();
-            XMLData xmlData = new XMLData();
         }
+
     }
 }

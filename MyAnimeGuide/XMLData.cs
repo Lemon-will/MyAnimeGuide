@@ -18,9 +18,20 @@ namespace MyAnimeGuide
         WebRequest webReqObj;
         WebResponse webResObj;
         XmlDocument xmlDocObj = new XmlDocument();
-        static ObservableCollection<AnimeData> animes = new ObservableCollection<AnimeData>();
+        ObservableCollection<AnimeData> animes = new ObservableCollection<AnimeData>();
 
         public XmlDocument XmlDocObj { get; }
+        public ObservableCollection<AnimeData> Animes
+        {
+            get
+            {
+                return animes;
+            }
+            set
+            {
+                animes = value;
+            }
+        }
 
         public XMLData()
         {
@@ -49,7 +60,7 @@ namespace MyAnimeGuide
             animes.Clear();
             XmlElement rootElement = xmlDocObj.DocumentElement;
             XmlElement progItemsElement = (XmlElement)rootElement.FirstChild;
-            foreach(XmlElement progItem in progItemsElement.ChildNodes)
+            foreach (XmlElement progItem in progItemsElement.ChildNodes)
             {
                 AnimeData anime = new AnimeData();
                 anime = MakeAnimeData(progItem);

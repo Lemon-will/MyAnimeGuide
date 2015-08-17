@@ -3,17 +3,17 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:MyAnimeGuide.ViewModel"
         xmlns:local="clr-namespace:MyAnimeGuide"
         mc:Ignorable="d"
         Title="MyAnimeGuide" Height="350" Width="525">
+    <Window.DataContext>
+        <vm:MainWindowViewModel x:Name="ViewModel" />
+    </Window.DataContext>
     <Grid>
-        <ListView Name="AnimeList" ItemsSource="{Binding}" VerticalAlignment="Top"  Margin="0,10">
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn DisplayMemberBinding="{Binding title}" Header="タイトル"/>                    
-                </GridView>
-            </ListView.View>
-        </ListView>
-
+        <DataGrid Name="AnimeDataGrid" ItemsSource="{Binding Path=AnimeList}">
+            <DataGrid.Columns>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Window>

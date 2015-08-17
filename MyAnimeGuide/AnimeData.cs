@@ -7,24 +7,8 @@ using System.Threading.Tasks;
 
 namespace MyAnimeGuide
 {
-    class AnimeData : INotifyPropertyChanged
+    class AnimeData
     {
-        public event PropertyChangedEventHandler PropertyChanged;
-        /// <summary>
-        /// イベントの通知
-        /// </summary>
-        /// <param name="propertyName">変化したプロパティ名</param>
-        protected virtual void RaisePropertyChanged(string propertyName)
-        {
-            if (PropertyChanged == null) return;
-            PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-        }
-
-        public AnimeData()
-        {
-
-        }
-
         public string PID { get; set; }
         public string TID { get; set; }
         public string StTime { get; set; }
