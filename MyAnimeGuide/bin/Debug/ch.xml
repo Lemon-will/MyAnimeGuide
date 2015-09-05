@@ -1,141 +1,103 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<syobocal url="http://cal.syoboi.jp/" version="" LastUpdate="20150809090932" SPID="nikeno" SPNAME="しょぼいカレンダー">
+<syobocal url="http://cal.syoboi.jp/" version="" LastUpdate="20150905171638" SPID="nikeno" SPNAME="しょぼいカレンダー">
   <ProgItems>
-    <ProgItem PID="341919" TID="2551" StTime="20150809060000" EdTime="20150809063000" ChName="TOKYO MX2" ChID="187" Count="28" StOffset="0" SubTitle="西部ゲキだドーン／居眠りオルゴールだドーン" Title="おねがい！サミアどん" ProgComment="" />
-    <ProgItem PID="336582" TID="3575" StTime="20150809063000" EdTime="20150809070000" ChName="BS Japan" ChID="15" Count="44" StOffset="0" SubTitle="石版だっ！" Title="ナノ・インベーダーズ" ProgComment="" />
-    <ProgItem PID="336655" TID="3540" StTime="20150809063000" EdTime="20150809070000" ChName="テレビ朝日" ChID="6" Count="41" StOffset="0" SubTitle="生意気な新人" Title="ワールドトリガー" ProgComment="" />
-    <ProgItem PID="337111" TID="3540" StTime="20150809063000" EdTime="20150809070000" ChName="メ～テレ" ChID="81" Count="41" StOffset="0" SubTitle="生意気な新人" Title="ワールドトリガー" ProgComment="" />
-    <ProgItem PID="343027" TID="2914" StTime="20150809063000" EdTime="20150809070000" ChName="AT-X" ChID="20" Count="1" StOffset="0" SubTitle="壊さなイカ？／普通じゃなイカ？／隠れなイカ？" Title="侵略!!イカ娘 2012 SUMMER" ProgComment="" />
-    <ProgItem PID="336668" TID="3528" StTime="20150809070000" EdTime="20150809073000" ChName="テレビ朝日" ChID="6" Count="42" StOffset="0" SubTitle="ハッピー！お買い物大作戦!?" Title="トライブクルクル" ProgComment="" />
-    <ProgItem PID="336744" TID="3179" StTime="20150809070000" EdTime="20150809073000" ChName="BS Japan" ChID="15" Count="62" StOffset="0" SubTitle="サイエンスの未来を守れ！電気の迷宮!!" Title="ポケットモンスター エックスワイ" ProgComment="" />
-    <ProgItem PID="337060" TID="3731" StTime="20150809070000" EdTime="20150809073000" ChName="テレビ愛知" ChID="59" Count="19" StOffset="0" SubTitle="リベンジ！ルビーVSルーア／クレヨンをくれよンらぶぅ～！" Title="ジュエルペット マジカルチェンジ" ProgComment="" />
-    <ProgItem PID="337124" TID="3528" StTime="20150809070000" EdTime="20150809073000" ChName="メ～テレ" ChID="81" Count="42" StOffset="0" SubTitle="ハッピー！お買い物大作戦!?" Title="トライブクルクル" ProgComment="" />
-    <ProgItem PID="343025" TID="3432" StTime="20150809070000" EdTime="20150809073000" ChName="AT-X" ChID="20" Count="1" StOffset="0" SubTitle="ビニールプールじゃなイカ？／母ちゃんじゃなイカ？／メッセージボトルじゃなイカ？" Title="侵略!!イカ娘 2013 SUMMER" ProgComment="" />
-    <ProgItem PID="333305" TID="3369" StTime="20150809073000" EdTime="20150809080000" ChName="アニマックス" ChID="21" Count="270" StOffset="0" SubTitle="たまごっつんが終わるとき(前編・後編)" Title="GO‐GO たまごっち！" ProgComment="" />
-    <ProgItem PID="334236" TID="3666" StTime="20150809073000" EdTime="20150809080000" ChName="テレビ朝日" ChID="6" Count="24" StOffset="0" SubTitle="夏だ！西洋妖怪ぞくぞく来日！" Title="手裏剣戦隊ニンニンジャー" ProgComment="" />
-    <ProgItem PID="334249" TID="3666" StTime="20150809073000" EdTime="20150809080000" ChName="メ～テレ" ChID="81" Count="24" StOffset="0" SubTitle="夏だ！西洋妖怪ぞくぞく来日！" Title="手裏剣戦隊ニンニンジャー" ProgComment="" />
-    <ProgItem PID="335810" TID="3666" StTime="20150809073000" EdTime="20150809080000" ChName="ABCテレビ" ChID="67" Count="24" StOffset="0" SubTitle="夏だ！西洋妖怪ぞくぞく来日！" Title="手裏剣戦隊ニンニンジャー" ProgComment="" />
-    <ProgItem PID="336643" TID="3529" StTime="20150809073000" EdTime="20150809075500" ChName="NHK BSプレミアム" ChID="179" Count="19" StOffset="0" SubTitle="なくなったナイフ" Title="山賊の娘ローニャ" ProgComment="" />
-    <ProgItem PID="343029" TID="3869" StTime="20150809073000" EdTime="20150809080000" ChName="AT-X" ChID="20" Count="1" StOffset="0" SubTitle="助っ人じゃなイカ？／バレなイカ？／警察官じゃなイカ？" Title="侵略!!イカ娘 2014 SUMMER" ProgComment="" />
-    <ProgItem PID="342411" TID="3518" StTime="20150809080000" EdTime="20150809083000" ChName="テレビ朝日" ChID="6" Count="41" StOffset="0" SubTitle="黄金のドライブはどうやって生まれたのか" Title="仮面ライダードライブ" ProgComment="" />
-    <ProgItem PID="342444" TID="3518" StTime="20150809080000" EdTime="20150809083000" ChName="メ～テレ" ChID="81" Count="41" StOffset="0" SubTitle="黄金のドライブはどうやって生まれたのか" Title="仮面ライダードライブ" ProgComment="" />
-    <ProgItem PID="336933" TID="3726" StTime="20150809083000" EdTime="20150809090000" ChName="テレビ東京" ChID="7" Count="19" StOffset="0" SubTitle="ある夏の日の奇跡っ！カレーパン星人との出会い そして完食(わかれ)…っ！" Title="デュエル・マスターズ VSR" ProgComment="" />
-    <ProgItem PID="337151" TID="3726" StTime="20150809083000" EdTime="20150809090000" ChName="テレビ愛知" ChID="59" Count="19" StOffset="0" SubTitle="ある夏の日の奇跡っ！カレーパン星人との出会い そして完食(わかれ)…っ！" Title="デュエル・マスターズ VSR" ProgComment="" />
-    <ProgItem PID="342419" TID="3644" StTime="20150809083000" EdTime="20150809090000" ChName="テレビ朝日" ChID="6" Count="27" StOffset="0" SubTitle="ガンバレゆうき！応援ひびく夏祭り！" Title="Go! プリンセスプリキュア" ProgComment="" />
-    <ProgItem PID="343046" TID="3644" StTime="20150809083000" EdTime="20150809090000" ChName="メ～テレ" ChID="81" Count="27" StOffset="0" SubTitle="ガンバレゆうき！応援ひびく夏祭り！" Title="Go! プリンセスプリキュア" ProgComment="" />
-    <ProgItem PID="343369" TID="3644" StTime="20150809083000" EdTime="20150809090000" ChName="新潟テレビ21" ChID="208" Count="27" StOffset="0" SubTitle="ガンバレゆうき！応援ひびく夏祭り！" Title="Go! プリンセスプリキュア" ProgComment="" />
-    <ProgItem PID="336693" TID="2512" StTime="20150809090000" EdTime="20150809093000" ChName="テレビ東京" ChID="7" Count="174" StOffset="0" SubTitle="黒部の浦島／野茶坊／おしどり" Title="ふるさと再生 日本の昔ばなし" ProgComment="" />
-    <ProgItem PID="337164" TID="2512" StTime="20150809090000" EdTime="20150809093000" ChName="テレビ愛知" ChID="59" Count="174" StOffset="0" SubTitle="黒部の浦島／野茶坊／おしどり" Title="ふるさと再生 日本の昔ばなし" ProgComment="" />
-    <ProgItem PID="338128" TID="3830" StTime="20150809090000" EdTime="20150809093000" ChName="東海テレビ" ChID="77" Count="5" StOffset="0" SubTitle="界王星の決戦！悟空VS破壊神ビルス" Title="ドラゴンボール超" ProgComment="" />
-    <ProgItem PID="338438" TID="3830" StTime="20150809090000" EdTime="20150809093000" ChName="フジテレビ" ChID="3" Count="5" StOffset="0" SubTitle="界王星の決戦！悟空VS破壊神ビルス" Title="ドラゴンボール超" ProgComment="" />
-    <ProgItem PID="341948" TID="3830" StTime="20150809090000" EdTime="20150809093000" ChName="関西テレビ" ChID="70" Count="4" StOffset="0" SubTitle="目指せドラゴンボール！ピラフ一味の大作戦！" Title="ドラゴンボール超" ProgComment="" />
-    <ProgItem PID="342750" TID="3681" StTime="20150809090000" EdTime="20150809092500" ChName="アニマックス" ChID="21" Count="8" StOffset="0" SubTitle="グリムロックの裏切り？" Title="トランスフォーマーアドベンチャー" ProgComment="" />
-    <ProgItem PID="336759" TID="3626" StTime="20150809092500" EdTime="20150809093000" ChName="アニマックス" ChID="21" Count="8" StOffset="0" SubTitle="ある超能力者の謎" Title="キュートランスフォーマー 帰ってきたコンボイの謎" ProgComment="" />
-    <ProgItem PID="336718" TID="350" StTime="20150809093000" EdTime="20150809100000" ChName="フジテレビ" ChID="3" Count="704" StOffset="0" SubTitle="時迫る！オペオペの実を奪え！" Title="ワンピース" ProgComment="" />
-    <ProgItem PID="339462" TID="350" StTime="20150809093000" EdTime="20150809100000" ChName="東海テレビ" ChID="77" Count="704" StOffset="0" SubTitle="時迫る！オペオペの実を奪え！" Title="ワンピース" ProgComment="" />
-    <ProgItem PID="336881" TID="3573" StTime="20150809100000" EdTime="20150809103000" ChName="テレビ東京" ChID="7" Count="40" StOffset="0" SubTitle="ネクステージ" Title="カードファイト!! ヴァンガードG" ProgComment="" />
-    <ProgItem PID="336894" TID="3573" StTime="20150809100000" EdTime="20150809103000" ChName="BS Japan" ChID="15" Count="40" StOffset="0" SubTitle="ネクステージ" Title="カードファイト!! ヴァンガードG" ProgComment="" />
-    <ProgItem PID="340086" TID="1062" StTime="20150809100000" EdTime="20150809103000" ChName="BSフジ" ChID="17" Count="93" StOffset="0" SubTitle="チャンスを生かせ!!ピッコロ捨身の援護射撃" Title="ドラゴンボールZ" ProgComment="" />
-    <ProgItem PID="342434" TID="3573" StTime="20150809100000" EdTime="20150809103000" ChName="テレビ愛知" ChID="59" Count="40" StOffset="0" SubTitle="ネクステージ" Title="カードファイト!! ヴァンガードG" ProgComment="" />
-    <ProgItem PID="336732" TID="350" StTime="20150809103000" EdTime="20150809110000" ChName="BSフジ" ChID="17" Count="449" StOffset="0" SubTitle="マゼランの奇策！はばまれた脱獄計画" Title="ワンピース" ProgComment="" />
-    <ProgItem PID="343351" TID="3787" StTime="20150809110000" EdTime="20150809120000" ChName="ファミリー劇場" ChID="42" Count="" StOffset="0" SubTitle="#27～#28" Title="魔法陣グルグル" ProgComment="" />
-    <ProgItem PID="339167" TID="3731" StTime="20150809113000" EdTime="20150809120000" ChName="キッズステーション" ChID="22" Count="4" StOffset="0" SubTitle="魔法なんていらない!?／パパってどんなひと？" Title="ジュエルペット マジカルチェンジ" ProgComment="" />
-    <ProgItem PID="339065" TID="3833" StTime="20150809120000" EdTime="20150809123000" ChName="ニコニコチャンネル" ChID="165" Count="6" StOffset="0" SubTitle="engagement" Title="ガッチャマン クラウズ インサイト" ProgComment="" />
-    <ProgItem PID="337177" TID="3728" StTime="20150809170000" EdTime="20150809173000" ChName="CBCテレビ" ChID="79" Count="18" StOffset="0" SubTitle="ふたたび河をこえて" Title="アルスラーン戦記" ProgComment="" />
-    <ProgItem PID="339382" TID="3728" StTime="20150809170000" EdTime="20150809173000" ChName="TBS" ChID="5" Count="18" StOffset="0" SubTitle="ふたたび河をこえて" Title="アルスラーン戦記" ProgComment="" />
-    <ProgItem PID="340165" TID="3728" StTime="20150809170000" EdTime="20150809173000" ChName="MBS毎日放送" ChID="48" Count="18" StOffset="0" SubTitle="ふたたび河をこえて" Title="アルスラーン戦記" ProgComment="" />
-    <ProgItem PID="340630" TID="3728" StTime="20150809170000" EdTime="20150809173000" ChName="BSN" ChID="206" Count="18" StOffset="0" SubTitle="ふたたび河をこえて" Title="アルスラーン戦記" ProgComment="" />
-    <ProgItem PID="340801" TID="3817" StTime="20150809170000" EdTime="20150809173000" ChName="AT-X" ChID="20" Count="6" StOffset="0" SubTitle="罠と潰走" Title="六花の勇者" ProgComment="" />
-    <ProgItem PID="342741" TID="818" StTime="20150809170000" EdTime="20150809223900" ChName="ニコニコ生放送" ChID="136" Count="" StOffset="0" SubTitle="#14～#26" Title="ARIA The NATURAL" ProgComment="http://live.nicovideo.jp/watch/lv228966733" />
-    <ProgItem PID="335638" TID="3702" StTime="20150809173000" EdTime="20150809175500" ChName="NHK Eテレ" ChID="2" Count="19" StOffset="0" SubTitle="失礼が初対面" Title="ベイビーステップ(第2シリーズ)" ProgComment="" />
-    <ProgItem PID="336907" TID="3351" StTime="20150809173000" EdTime="20150809180000" ChName="テレビ東京" ChID="7" Count="68" StOffset="0" SubTitle="B・F(ビー・フォース)一斉蜂起" Title="遊☆戯☆王ARC‐V" ProgComment="" />
-    <ProgItem PID="336994" TID="3452" StTime="20150809173000" EdTime="20150809180000" ChName="BS11デジタル" ChID="128" Count="18" StOffset="0" SubTitle="侵略-SAILOR VENUS-" Title="美少女戦士セーラームーンCrystal" ProgComment="" />
-    <ProgItem PID="337189" TID="3351" StTime="20150809173000" EdTime="20150809180000" ChName="テレビ愛知" ChID="59" Count="68" StOffset="0" SubTitle="B・F(ビー・フォース)一斉蜂起" Title="遊☆戯☆王ARC‐V" ProgComment="" />
-    <ProgItem PID="343016" TID="3843" StTime="20150809173000" EdTime="20150809180000" ChName="超!A&amp;G+" ChID="156" Count="" StOffset="0" SubTitle="" Title="めっちゃすきやねん" ProgComment="" />
-    <ProgItem PID="336945" TID="1169" StTime="20150809180000" EdTime="20150809183000" ChName="フジテレビ" ChID="3" Count="1017" StOffset="0" SubTitle="" Title="ちびまる子ちゃん" ProgComment="" />
-    <ProgItem PID="341971" TID="1169" StTime="20150809180000" EdTime="20150809183000" ChName="関西テレビ" ChID="70" Count="1015" StOffset="0" SubTitle="" Title="ちびまる子ちゃん" ProgComment="" />
-    <ProgItem PID="342393" TID="3707" StTime="20150809180000" EdTime="20150809180500" ChName="Dlife" ChID="212" Count="11" StOffset="0" SubTitle="ツムツムグラフィティ" Title="ツムツム" ProgComment="" />
-    <ProgItem PID="336959" TID="1168" StTime="20150809183000" EdTime="20150809190000" ChName="フジテレビ" ChID="3" Count="2314" StOffset="0" SubTitle="" Title="サザエさん" ProgComment="" />
-    <ProgItem PID="341984" TID="1168" StTime="20150809183000" EdTime="20150809190000" ChName="関西テレビ" ChID="70" Count="2312" StOffset="0" SubTitle="" Title="サザエさん" ProgComment="" />
-    <ProgItem PID="335191" TID="3526" StTime="20150809190000" EdTime="20150809193000" ChName="BS11デジタル" ChID="128" Count="18" StOffset="0" SubTitle="スナイバル・ドラゴ・ギラ" Title="ガンダムビルドファイターズトライ" ProgComment="" />
-    <ProgItem PID="341468" TID="3572" StTime="20150809190000" EdTime="20150809193000" ChName="超!A&amp;G+" ChID="156" Count="44" StOffset="0" SubTitle="" Title="セハガールのハードなSEGA情報RADIO" ProgComment="" />
-    <ProgItem PID="339368" TID="3548" StTime="20150809193000" EdTime="20150809200000" ChName="BS11デジタル" ChID="128" Count="6" StOffset="0" SubTitle="強敵、デレンセン！" Title="ガンダム Gのレコンギスタ" ProgComment="" />
-    <ProgItem PID="334145" TID="780" StTime="20150809200000" EdTime="20150809203000" ChName="テレ朝チャンネル" ChID="25" Count="45" StOffset="0" SubTitle="ケーキと和也とクリスマス！" Title="ふたりはプリキュア Splash Star" ProgComment="" />
-    <ProgItem PID="338502" TID="3750" StTime="20150809200000" EdTime="20150809203000" ChName="文化放送(1134)" ChID="41" Count="19" StOffset="0" SubTitle="" Title="ニューギンpresents義風堂々!!～音語り～" ProgComment="" />
-    <ProgItem PID="338515" TID="3750" StTime="20150809200000" EdTime="20150809203000" ChName="超!A&amp;G+" ChID="156" Count="19" StOffset="0" SubTitle="" Title="ニューギンpresents義風堂々!!～音語り～" ProgComment="" />
-    <ProgItem PID="334146" TID="780" StTime="20150809203000" EdTime="20150809210000" ChName="テレ朝チャンネル" ChID="25" Count="46" StOffset="0" SubTitle="反撃！アクダイカーン脅威の力！" Title="ふたりはプリキュア Splash Star" ProgComment="" />
-    <ProgItem PID="341429" TID="3570" StTime="20150809203000" EdTime="20150809210000" ChName="超!A&amp;G+" ChID="156" Count="44" StOffset="0" SubTitle="" Title="瑠璃子・葵のAO進化論" ProgComment="" />
-    <ProgItem PID="342866" TID="3828" StTime="20150809203000" EdTime="20150809223000" ChName="ニコニコ生放送" ChID="136" Count="" StOffset="0" SubTitle="#1～#4" Title="監獄学園 プリズンスクール" ProgComment="フリーダムバージョン http://live.nicovideo.jp/watch/lv228989247" />
-    <ProgItem PID="338476" TID="3751" StTime="20150809210000" EdTime="20150809213000" ChName="文化放送(1134)" ChID="41" Count="19" StOffset="0" SubTitle="" Title="セガネットワークスアワー 村川梨衣・大坪由佳のムラツボ研究所" ProgComment="" />
-    <ProgItem PID="338880" TID="3750" StTime="20150809210000" EdTime="20150809213000" ChName="東海ラジオ(1332)" ChID="139" Count="19" StOffset="0" SubTitle="" Title="ニューギンpresents義風堂々!!～音語り～" ProgComment="" />
-    <ProgItem PID="341442" TID="3122" StTime="20150809210000" EdTime="20150809213000" ChName="超!A&amp;G+" ChID="156" Count="175" StOffset="0" SubTitle="" Title="はみらじ!!" ProgComment="" />
-    <ProgItem PID="342186" TID="237" StTime="20150809210000" EdTime="20150809213000" ChName="キッズステーション" ChID="22" Count="7" StOffset="0" SubTitle="激突！コーナー勝負 ソニックセイバーVSスピンアックス" Title="爆走兄弟レッツ&amp;ゴー!!" ProgComment="" />
-    <ProgItem PID="338528" TID="3354" StTime="20150809213000" EdTime="20150809220000" ChName="文化放送(1134)" ChID="41" Count="45" StOffset="0" SubTitle="" Title="セガネットワークスアワー 緑川光・今井麻美・内田彩のチェンクロラジオ" ProgComment="" />
-    <ProgItem PID="339616" TID="1780" StTime="20150809213000" EdTime="20150809220000" ChName="超!A&amp;G+" ChID="156" Count="305" StOffset="0" SubTitle="" Title="丹下桜のRADIO・A・La・Mode" ProgComment="" />
-    <ProgItem PID="342187" TID="237" StTime="20150809213000" EdTime="20150809220000" ChName="キッズステーション" ChID="22" Count="8" StOffset="0" SubTitle="かっ飛べマグナム！スプリングレースをめざせ！" Title="爆走兄弟レッツ&amp;ゴー!!" ProgComment="" />
-    <ProgItem PID="338554" TID="285" StTime="20150809220000" EdTime="20150809223000" ChName="文化放送(1134)" ChID="41" Count="671" StOffset="0" SubTitle="" Title="堀江由衣の天使のたまご" ProgComment="" />
-    <ProgItem PID="340351" TID="3850" StTime="20150809220000" EdTime="20150809223000" ChName="ニコニコ生放送" ChID="136" Count="6" StOffset="0" SubTitle="VENUS PROJECT TV #5" Title="VENUS PROJECT" ProgComment="http://live.nicovideo.jp/watch/lv228881078" />
-    <ProgItem PID="340598" TID="3850" StTime="20150809220000" EdTime="20150809222700" ChName="TOKYO MX" ChID="19" Count="6" StOffset="0" SubTitle="VENUS PROJECT TV #5" Title="VENUS PROJECT" ProgComment="" />
-    <ProgItem PID="342231" TID="3861" StTime="20150809220000" EdTime="20150809223000" ChName="キッズステーション" ChID="22" Count="7" StOffset="0" SubTitle="消えたエンペラー" Title="ダッシュ！四駆郎" ProgComment="" />
-    <ProgItem PID="339592" TID="3813" StTime="20150809222500" EdTime="20150809223000" ChName="サンテレビジョン" ChID="58" Count="6" StOffset="0" SubTitle="あさりの酒蒸し" Title="ワカコ酒" ProgComment="" />
-    <ProgItem PID="335857" TID="3813" StTime="20150809222700" EdTime="20150809223000" ChName="TOKYO MX" ChID="19" Count="6" StOffset="0" SubTitle="あさりの酒蒸し" Title="ワカコ酒" ProgComment="" />
-    <ProgItem PID="335536" TID="3810" StTime="20150809223000" EdTime="20150809230000" ChName="TOKYO MX" ChID="19" Count="4" StOffset="0" SubTitle="エイジス" Title="GOD EATER" ProgComment="" />
-    <ProgItem PID="338567" TID="3113" StTime="20150809223000" EdTime="20150809230000" ChName="文化放送(1134)" ChID="41" Count="122" StOffset="0" SubTitle="" Title="碧と彩奈のラ・プチミレディオ" ProgComment="" />
-    <ProgItem PID="339631" TID="1933" StTime="20150809223000" EdTime="20150809230000" ChName="東海ラジオ(1332)" ChID="139" Count="645" StOffset="0" SubTitle="" Title="田村ゆかりのいたずら黒うさぎ" ProgComment="" />
-    <ProgItem PID="342232" TID="3861" StTime="20150809223000" EdTime="20150809230000" ChName="キッズステーション" ChID="22" Count="8" StOffset="0" SubTitle="死闘！風の谷" Title="ダッシュ！四駆郎" ProgComment="" />
-    <ProgItem PID="336002" TID="3815" StTime="20150809230000" EdTime="20150809233000" ChName="TOKYO MX" ChID="19" Count="6" StOffset="0" SubTitle="THORN" Title="GANGSTA." ProgComment="" />
-    <ProgItem PID="339431" TID="3750" StTime="20150809230000" EdTime="20150809233000" ChName="ABCラジオ(1008)" ChID="38" Count="19" StOffset="0" SubTitle="" Title="ニューギンpresents義風堂々!!～音語り～" ProgComment="" />
-    <ProgItem PID="339644" TID="285" StTime="20150809230000" EdTime="20150809233000" ChName="東海ラジオ(1332)" ChID="139" Count="671" StOffset="0" SubTitle="" Title="堀江由衣の天使のたまご" ProgComment="" />
-    <ProgItem PID="338580" TID="1650" StTime="20150809233000" EdTime="20150810000000" ChName="文化放送(1134)" ChID="41" Count="" StOffset="0" SubTitle="" Title="水樹奈々 スマイル・ギャング" ProgComment="" />
-    <ProgItem PID="339714" TID="3703" StTime="20150809233000" EdTime="20150810000000" ChName="TOKYO MX" ChID="19" Count="6" StOffset="0" SubTitle="応答せよっ！" Title="山田くんと7人の魔女" ProgComment="" />
-    <ProgItem PID="339739" TID="1650" StTime="20150809233000" EdTime="20150810000000" ChName="ラジオ大阪(1314)" ChID="35" Count="" StOffset="0" SubTitle="" Title="水樹奈々 スマイル・ギャング" ProgComment="" />
-    <ProgItem PID="341403" TID="3410" StTime="20150809233000" EdTime="20150810000000" ChName="超!A&amp;G+" ChID="156" Count="70" StOffset="0" SubTitle="" Title="天才軍師" ProgComment="" />
-    <ProgItem PID="342760" TID="3866" StTime="20150809235500" EdTime="20150810000000" ChName="tvk" ChID="8" Count="3" StOffset="0" SubTitle="ホネカミ地蔵の願い" Title="暗闇三太" ProgComment="" />
-    <ProgItem PID="334713" TID="3795" StTime="20150810000000" EdTime="20150810003000" ChName="TOKYO MX" ChID="19" Count="5" StOffset="0" SubTitle="うまると夏休み" Title="干物妹！うまるちゃん" ProgComment="" />
-    <ProgItem PID="337728" TID="3828" StTime="20150810000000" EdTime="20150810003000" ChName="BS11デジタル" ChID="128" Count="5" StOffset="0" SubTitle="学園一の裏切り男" Title="監獄学園 プリズンスクール" ProgComment="" />
-    <ProgItem PID="338921" TID="3835" StTime="20150810000000" EdTime="20150810003000" ChName="チバテレビ" ChID="13" Count="3" StOffset="0" SubTitle="命短し腐れよ乙女" Title="Fate/kaleid liner プリズマ☆イリヤ ツヴァイ ヘルツ！" ProgComment="" />
-    <ProgItem PID="338957" TID="3835" StTime="20150810000000" EdTime="20150810003000" ChName="tvk" ChID="8" Count="3" StOffset="0" SubTitle="命短し腐れよ乙女" Title="Fate/kaleid liner プリズマ☆イリヤ ツヴァイ ヘルツ！" ProgComment="" />
-    <ProgItem PID="339657" TID="1650" StTime="20150810000000" EdTime="20150810003000" ChName="東海ラジオ(1332)" ChID="139" Count="" StOffset="0" SubTitle="" Title="水樹奈々 スマイル・ギャング" ProgComment="" />
-    <ProgItem PID="339867" TID="3847" StTime="20150810000000" EdTime="20150810003000" ChName="ラジオ大阪(1314)" ChID="35" Count="" StOffset="0" SubTitle="" Title="ミリオンドール～リアルすぎるアイドルラジオ～" ProgComment="" />
-    <ProgItem PID="340153" TID="1631" StTime="20150810000000" EdTime="20150810010000" ChName="ラジオ関西(558)" ChID="133" Count="" StOffset="0" SubTitle="" Title="ロンハールーム" ProgComment="" />
-    <ProgItem PID="341416" TID="3213" StTime="20150810000000" EdTime="20150810003000" ChName="超!A&amp;G+" ChID="156" Count="96" StOffset="0" SubTitle="" Title="P.S.元気です。孝宏" ProgComment="" />
-    <ProgItem PID="342210" TID="3795" StTime="20150810000000" EdTime="20150810003000" ChName="AT-X" ChID="20" Count="5" StOffset="0" SubTitle="うまると夏休み" Title="干物妹！うまるちゃん" ProgComment="" />
-    <ProgItem PID="342343" TID="3835" StTime="20150810000000" EdTime="20150810003000" ChName="テレ玉" ChID="14" Count="3" StOffset="0" SubTitle="命短し腐れよ乙女" Title="Fate/kaleid liner プリズマ☆イリヤ ツヴァイ ヘルツ！" ProgComment="" />
-    <ProgItem PID="334725" TID="3795" StTime="20150810003000" EdTime="20150810010000" ChName="BS11デジタル" ChID="128" Count="5" StOffset="0" SubTitle="うまると夏休み" Title="干物妹！うまるちゃん" ProgComment="" />
-    <ProgItem PID="335729" TID="461" StTime="20150810003000" EdTime="20150810010000" ChName="TOKYO MX" ChID="19" Count="19" StOffset="0" SubTitle="決別" Title="うたわれるもの" ProgComment="" />
-    <ProgItem PID="335767" TID="827" StTime="20150810003000" EdTime="20150810010000" ChName="TOKYO MX2" ChID="187" Count="20" StOffset="0" SubTitle="殺人回路" Title="怪奇大作戦" ProgComment="" />
-    <ProgItem PID="336014" TID="3372" StTime="20150810003000" EdTime="20150810010000" ChName="文化放送(1134)" ChID="41" Count="71" StOffset="0" SubTitle="" Title="ゆいかおりの実♪" ProgComment="" />
-    <ProgItem PID="336304" TID="3819" StTime="20150810003000" EdTime="20150810010000" ChName="BSフジ" ChID="17" Count="5" StOffset="0" SubTitle="この道は予感の結晶" Title="赤髪の白雪姫" ProgComment="" />
-    <ProgItem PID="337778" TID="3827" StTime="20150810003000" EdTime="20150810010000" ChName="チバテレビ" ChID="13" Count="5" StOffset="0" SubTitle="千里の道も一歩から" Title="純情ロマンチカ3" ProgComment="" />
-    <ProgItem PID="338018" TID="3827" StTime="20150810003000" EdTime="20150810010000" ChName="tvk" ChID="8" Count="5" StOffset="0" SubTitle="千里の道も一歩から" Title="純情ロマンチカ3" ProgComment="" />
-    <ProgItem PID="341500" TID="3854" StTime="20150810003000" EdTime="20150810010000" ChName="超!A&amp;G+" ChID="156" Count="5" StOffset="0" SubTitle="" Title="ガッチャマンクラウズＲａｄｉｏ～インサイト～" ProgComment="" />
-    <ProgItem PID="341704" TID="3835" StTime="20150810003000" EdTime="20150810010000" ChName="サンテレビジョン" ChID="58" Count="3" StOffset="0" SubTitle="命短し腐れよ乙女" Title="Fate/kaleid liner プリズマ☆イリヤ ツヴァイ ヘルツ！" ProgComment="" />
-    <ProgItem PID="343063" TID="3827" StTime="20150810003000" EdTime="20150810010000" ChName="テレ玉" ChID="14" Count="5" StOffset="0" SubTitle="千里の道も一歩から" Title="純情ロマンチカ3" ProgComment="" />
-    <ProgItem PID="336820" TID="3802" StTime="20150810004500" EdTime="20150810011500" ChName="KBS京都" ChID="66" Count="6" StOffset="0" SubTitle="手作りのぬくもり！" Title="下ネタという概念が存在しない退屈な世界" ProgComment="" />
-    <ProgItem PID="335315" TID="3802" StTime="20150810010000" EdTime="20150810013000" ChName="チバテレビ" ChID="13" Count="6" StOffset="0" SubTitle="手作りのぬくもり！" Title="下ネタという概念が存在しない退屈な世界" ProgComment="" />
-    <ProgItem PID="335375" TID="3802" StTime="20150810010000" EdTime="20150810013000" ChName="tvk" ChID="8" Count="6" StOffset="0" SubTitle="手作りのぬくもり！" Title="下ネタという概念が存在しない退屈な世界" ProgComment="" />
-    <ProgItem PID="336065" TID="3807" StTime="20150810010000" EdTime="20150810013000" ChName="TBSチャンネル1" ChID="52" Count="4" StOffset="0" SubTitle="こいつはあの大会には向いてねぇよ" Title="青春×機関銃" ProgComment="" />
-    <ProgItem PID="337263" TID="3822" StTime="20150810010000" EdTime="20150810010900" ChName="BS11デジタル" ChID="128" Count="6" StOffset="0" SubTitle="SHOWDOWN" Title="ミス・モノクローム -The Animation- 2" ProgComment="" />
-    <ProgItem PID="338592" TID="3565" StTime="20150810010000" EdTime="20150810013000" ChName="文化放送(1134)" ChID="41" Count="44" StOffset="0" SubTitle="" Title="花澤香菜・雨宮天のRADIO GREE NIGHT" ProgComment="" />
-    <ProgItem PID="338663" TID="3828" StTime="20150810010000" EdTime="20150810013000" ChName="サンテレビジョン" ChID="58" Count="5" StOffset="0" SubTitle="学園一の裏切り男" Title="監獄学園 プリズンスクール" ProgComment="" />
-    <ProgItem PID="340776" TID="3802" StTime="20150810010000" EdTime="20150810013000" ChName="テレ玉" ChID="14" Count="6" StOffset="0" SubTitle="手作りのぬくもり！" Title="下ネタという概念が存在しない退屈な世界" ProgComment="" />
-    <ProgItem PID="337681" TID="3452" StTime="20150810010500" EdTime="20150810013500" ChName="テレビ北海道" ChID="90" Count="19" StOffset="0" SubTitle="タイム・ワープ-SAILOR PLUTO-" Title="美少女戦士セーラームーンCrystal" ProgComment="" />
-    <ProgItem PID="339777" TID="3741" StTime="20150810010500" EdTime="20150810013500" ChName="テレビ愛知" ChID="59" Count="6" StOffset="0" SubTitle="どぜうの軍師" Title="食の軍師" ProgComment="" />
-    <ProgItem PID="337277" TID="3823" StTime="20150810010900" EdTime="20150810011700" ChName="BS11デジタル" ChID="128" Count="6" StOffset="0" SubTitle="うーさー監督、黄昏の映画狂時代" Title="うーさーのその日暮らし 夢幻編" ProgComment="" />
-    <ProgItem PID="336366" TID="3820" StTime="20150810011700" EdTime="20150810013000" ChName="BS11デジタル" ChID="128" Count="6" StOffset="0" SubTitle="布の面積が小さすぎます" Title="わかば＊ガール" ProgComment="" />
-    <ProgItem PID="335428" TID="3806" StTime="20150810013000" EdTime="20150810020000" ChName="BS11デジタル" ChID="128" Count="6" StOffset="0" SubTitle="灯せ！己の強さ" Title="アクエリオンロゴス" ProgComment="" />
-    <ProgItem PID="336053" TID="3798" StTime="20150810013000" EdTime="20150810020000" ChName="TBSチャンネル1" ChID="52" Count="4" StOffset="0" SubTitle="王女のスカート／謎の生徒会長" Title="城下町のダンデライオン" ProgComment="" />
-    <ProgItem PID="338246" TID="3802" StTime="20150810013000" EdTime="20150810020000" ChName="サンテレビジョン" ChID="58" Count="6" StOffset="0" SubTitle="手作りのぬくもり！" Title="下ネタという概念が存在しない退屈な世界" ProgComment="" />
-    <ProgItem PID="340860" TID="3828" StTime="20150810013000" EdTime="20150810020000" ChName="AT-X" ChID="20" Count="5" StOffset="0" SubTitle="学園一の裏切り男" Title="監獄学園 プリズンスクール" ProgComment="" />
-    <ProgItem PID="335078" TID="2691" StTime="20150810013500" EdTime="20150810020500" ChName="テレビ東京" ChID="7" Count="5" StOffset="0" SubTitle="強豪・シャーマン軍団です！" Title="ガールズ＆パンツァー" ProgComment="" />
-    <ProgItem PID="336982" TID="3452" StTime="20150810013500" EdTime="20150810020500" ChName="テレビ愛知" ChID="59" Count="19" StOffset="0" SubTitle="タイム・ワープ-SAILOR PLUTO-" Title="美少女戦士セーラームーンCrystal" ProgComment="" />
-    <ProgItem PID="338489" TID="3751" StTime="20150810020000" EdTime="20150810023000" ChName="超!A&amp;G+" ChID="156" Count="19" StOffset="0" SubTitle="" Title="セガネットワークスアワー 村川梨衣・大坪由佳のムラツボ研究所" ProgComment="" />
-    <ProgItem PID="335291" TID="3802" StTime="20150810020500" EdTime="20150810023500" ChName="テレビ愛知" ChID="59" Count="6" StOffset="0" SubTitle="手作りのぬくもり！" Title="下ネタという概念が存在しない退屈な世界" ProgComment="" />
-    <ProgItem PID="343284" TID="3310" StTime="20150810015500" EdTime="20150810015900" ChName="中京テレビ" ChID="80" Count="58" StOffset="840" SubTitle="" Title="ニャンだ？フルチャンネル" ProgComment="" />
-    <ProgItem PID="338541" TID="3354" StTime="20150810023000" EdTime="20150810030000" ChName="超!A&amp;G+" ChID="156" Count="45" StOffset="0" SubTitle="" Title="セガネットワークスアワー 緑川光・今井麻美・内田彩のチェンクロラジオ" ProgComment="" />
-    <ProgItem PID="335949" TID="3815" StTime="20150810023500" EdTime="20150810030500" ChName="テレビ愛知" ChID="59" Count="6" StOffset="0" SubTitle="THORN" Title="GANGSTA." ProgComment="" />
-    <ProgItem PID="341576" TID="3829" StTime="20150810022000" EdTime="20150810025000" ChName="北海道文化放送" ChID="91" Count="5" StOffset="1500" SubTitle="芋虫" Title="乱歩奇譚 Game of Laplace" ProgComment="" />
-    <ProgItem PID="342727" TID="1661" StTime="20150810033000" EdTime="20150810043000" ChName="AT-X" ChID="20" Count="" StOffset="0" SubTitle="#14～15" Title="忍者戦士飛影" ProgComment="" />
-    <ProgItem PID="336971" TID="3580" StTime="20150810035500" EdTime="20150810042500" ChName="BSフジ" ChID="17" Count="37" StOffset="0" SubTitle="二人のまお。空海伝説を追え！" Title="おへんろ。～八十八歩記～" ProgComment="" />
+    <ProgItem PID="340621" TID="350" StTime="20150905053000" EdTime="20150905060000" ChName="NST" ChID="209" Count="707" StOffset="0" SubTitle="自由へ！ロー注射(インジェクション)ショット炸裂" Title="ワンピース" ProgComment="" />
+    <ProgItem PID="334104" TID="3788" StTime="20150905060000" EdTime="20150905070000" ChName="ファミリー劇場" ChID="42" Count="" StOffset="0" SubTitle="#48～#49" Title="タイムボカンシリーズ 逆転イッパツマン" ProgComment="" />
+    <ProgItem PID="335603" TID="3302" StTime="20150905063000" EdTime="20150905070000" ChName="TBSチャンネル1" ChID="52" Count="47" StOffset="0" SubTitle="さらばハネジロー" Title="ウルトラマンダイナ" ProgComment="" />
+    <ProgItem PID="341830" TID="3726" StTime="20150905063000" EdTime="20150905070000" ChName="北陸朝日放送" ChID="146" Count="21" StOffset="0" SubTitle="ズギャーンと開店っ！女子プロレスカフェ滝川っ!?" Title="デュエル・マスターズ VSR" ProgComment="" />
+    <ProgItem PID="336570" TID="3262" StTime="20150905070000" EdTime="20150905073000" ChName="BS Japan" ChID="15" Count="85" StOffset="0" SubTitle="妖怪プライ丼／イナホとUSAピョンのロケットチビチビクミタテール④～安全装置編～／コマさんタクシー～ロボニャン～" Title="妖怪ウォッチ" ProgComment="" />
+    <ProgItem PID="342385" TID="1743" StTime="20150905070000" EdTime="20150905073000" ChName="テレビ愛知" ChID="59" Count="32" StOffset="0" SubTitle="大きなカシの木" Title="フランダースの犬" ProgComment="" />
+    <ProgItem PID="336710" TID="2512" StTime="20150905073000" EdTime="20150905080000" ChName="BS Japan" ChID="15" Count="177" StOffset="0" SubTitle="カッパ小僧／和尚と小僧のくわん、くった／雀とキツツキ" Title="ふるさと再生 日本の昔ばなし" ProgComment="" />
+    <ProgItem PID="342717" TID="457" StTime="20150905073000" EdTime="20150905080000" ChName="テレビ東京" ChID="7" Count="31" StOffset="0" SubTitle="凶悪・重機械デッキ" Title="遊戯王デュエルモンスターズ" ProgComment="20thリマスター版" />
+    <ProgItem PID="343037" TID="457" StTime="20150905073000" EdTime="20150905080000" ChName="テレビ愛知" ChID="59" Count="31" StOffset="0" SubTitle="凶悪・重機械デッキ" Title="遊戯王デュエルモンスターズ" ProgComment="20thリマスター版" />
+    <ProgItem PID="337025" TID="3748" StTime="20150905080000" EdTime="20150905083000" ChName="テレビ愛知" ChID="59" Count="22" StOffset="0" SubTitle="外道奥義！召雷暴神立!!" Title="フューチャーカード バディファイト100" ProgComment="" />
+    <ProgItem PID="339121" TID="3748" StTime="20150905080000" EdTime="20150905083000" ChName="テレビ東京" ChID="7" Count="22" StOffset="0" SubTitle="外道奥義！召雷暴神立!!" Title="フューチャーカード バディファイト100" ProgComment="" />
+    <ProgItem PID="337038" TID="3533" StTime="20150905090000" EdTime="20150905091400" ChName="テレビ愛知" ChID="59" Count="48" StOffset="0" SubTitle="お花を見つけよう" Title="カリメロ(2014)" ProgComment="" />
+    <ProgItem PID="339134" TID="3533" StTime="20150905090000" EdTime="20150905091400" ChName="テレビ東京" ChID="7" Count="48" StOffset="0" SubTitle="お花を見つけよう" Title="カリメロ(2014)" ProgComment="" />
+    <ProgItem PID="337051" TID="3738" StTime="20150905091400" EdTime="20150905093000" ChName="テレビ愛知" ChID="59" Count="23" StOffset="0" SubTitle="災いの道" Title="GON -ゴン-(第2期)" ProgComment="" />
+    <ProgItem PID="339147" TID="3738" StTime="20150905091400" EdTime="20150905093000" ChName="テレビ東京" ChID="7" Count="23" StOffset="0" SubTitle="災いの道" Title="GON -ゴン-(第2期)" ProgComment="" />
+    <ProgItem PID="339160" TID="3731" StTime="20150905093000" EdTime="20150905100000" ChName="テレビ東京" ChID="7" Count="23" StOffset="0" SubTitle="人間界から来た居候" Title="ジュエルペット マジカルチェンジ" ProgComment="" />
+    <ProgItem PID="337077" TID="3434" StTime="20150905100000" EdTime="20150905103000" ChName="テレビ愛知" ChID="59" Count="61" StOffset="0" SubTitle="クールスキャンダル☆恐縮です" Title="プリパラ" ProgComment="" />
+    <ProgItem PID="339186" TID="3434" StTime="20150905100000" EdTime="20150905103000" ChName="テレビ東京" ChID="7" Count="61" StOffset="0" SubTitle="クールスキャンダル☆恐縮です" Title="プリパラ" ProgComment="" />
+    <ProgItem PID="337103" TID="3385" StTime="20150905103000" EdTime="20150905110000" ChName="テレビ愛知" ChID="59" Count="249" StOffset="0" SubTitle="冥府の門編 星霊王vs.冥王" Title="FAIRY TAIL(第2期)" ProgComment="" />
+    <ProgItem PID="339199" TID="3385" StTime="20150905103000" EdTime="20150905110000" ChName="テレビ東京" ChID="7" Count="249" StOffset="0" SubTitle="冥府の門編 星霊王vs.冥王" Title="FAIRY TAIL(第2期)" ProgComment="" />
+    <ProgItem PID="337012" TID="3748" StTime="20150905110000" EdTime="20150905113000" ChName="BS Japan" ChID="15" Count="22" StOffset="0" SubTitle="外道奥義！召雷暴神立!!" Title="フューチャーカード バディファイト100" ProgComment="" />
+    <ProgItem PID="340647" TID="350" StTime="20150905111000" EdTime="20150905114000" ChName="テレビ新広島" ChID="60" Count="706" StOffset="0" SubTitle="行けロー 優しき男最期の戦い！" Title="ワンピース" ProgComment="" />
+    <ProgItem PID="333938" TID="3452" StTime="20150905123000" EdTime="20150905130000" ChName="アニマックス" ChID="21" Count="16" StOffset="0" SubTitle="誘拐-SAILOR MERCURY-" Title="美少女戦士セーラームーンCrystal" ProgComment="" />
+    <ProgItem PID="342867" TID="2567" StTime="20150905170000" EdTime="20150905221100" ChName="ニコニコ生放送" ChID="136" Count="" StOffset="0" SubTitle="#1～#12" Title="ゆるゆり♪♪" ProgComment="http://live.nicovideo.jp/watch/lv229210207" />
+    <ProgItem PID="334538" TID="3262" StTime="20150905173000" EdTime="20150905175800" ChName="キッズステーション" ChID="22" Count="74" StOffset="0" SubTitle="コマさんといく～はじめての家電量販店～／クロがきた！／ロボニャンF型あらわる！" Title="妖怪ウォッチ" ProgComment="!9/12は放送休止" />
+    <ProgItem PID="335685" TID="3694" StTime="20150905173000" EdTime="20150905175500" ChName="NHK Eテレ" ChID="2" Count="23" StOffset="0" SubTitle="狐おとし" Title="境界のRINNE" ProgComment="" />
+    <ProgItem PID="336460" TID="3712" StTime="20150905173000" EdTime="20150905180000" ChName="日本テレビ" ChID="4" Count="21" StOffset="0" SubTitle="ファミリンジャー見参！" Title="電波教師" ProgComment="" />
+    <ProgItem PID="339283" TID="3712" StTime="20150905173000" EdTime="20150905180000" ChName="中京テレビ" ChID="80" Count="21" StOffset="0" SubTitle="ファミリンジャー見参！" Title="電波教師" ProgComment="" />
+    <ProgItem PID="341940" TID="3712" StTime="20150905173000" EdTime="20150905180000" ChName="読売テレビ" ChID="54" Count="21" StOffset="0" SubTitle="ファミリンジャー見参！" Title="電波教師" ProgComment="" />
+    <ProgItem PID="336474" TID="518" StTime="20150905180000" EdTime="20150905183000" ChName="日本テレビ" ChID="4" Count="790" StOffset="0" SubTitle="米花(ベカ)ポン出血大サービス" Title="名探偵コナン" ProgComment="" />
+    <ProgItem PID="338307" TID="3588" StTime="20150905183000" EdTime="20150905190000" ChName="TOKYO MX" ChID="19" Count="10" StOffset="0" SubTitle="Our world is full of joy!!" Title="アイドルマスター シンデレラガールズ" ProgComment="" />
+    <ProgItem PID="338997" TID="3836" StTime="20150905183000" EdTime="20150905190000" ChName="BS11デジタル" ChID="128" Count="10" StOffset="0" SubTitle="" Title="ブシモのテレビ" ProgComment="" />
+    <ProgItem PID="343364" TID="3873" StTime="20150905183000" EdTime="20150905190000" ChName="超!A&amp;G+" ChID="156" Count="5" StOffset="0" SubTitle="" Title="西山宏太朗が24歳までに叶えたい9つの夢。" ProgComment="" />
+    <ProgItem PID="338320" TID="3588" StTime="20150905190000" EdTime="20150905193000" ChName="BS11デジタル" ChID="128" Count="10" StOffset="0" SubTitle="Our world is full of joy!!" Title="アイドルマスター シンデレラガールズ" ProgComment="" />
+    <ProgItem PID="340008" TID="1622" StTime="20150905190000" EdTime="20150905220000" ChName="ラジオ関西(558)" ChID="133" Count="" StOffset="0" SubTitle="" Title="青春ラジメニア" ProgComment="" />
+    <ProgItem PID="341361" TID="3671" StTime="20150905190000" EdTime="20150905193000" ChName="超!A&amp;G+" ChID="156" Count="27" StOffset="0" SubTitle="" Title="人生道でも飯田里穂" ProgComment="" />
+    <ProgItem PID="335169" TID="2413" StTime="20150905193000" EdTime="20150905200000" ChName="BS11デジタル" ChID="128" Count="10" StOffset="0" SubTitle="熱血！あかねのお好み焼き人生!!" Title="スマイルプリキュア！" ProgComment="" />
+    <ProgItem PID="341374" TID="3477" StTime="20150905193000" EdTime="20150905200000" ChName="超!A&amp;G+" ChID="156" Count="62" StOffset="0" SubTitle="" Title="ステキ情報バラエティ 発信！もいとろ君" ProgComment="" />
+    <ProgItem PID="339422" TID="3294" StTime="20150905200000" EdTime="20150905203000" ChName="超!A&amp;G+" ChID="156" Count="87" StOffset="0" SubTitle="" Title="木戸衣吹・エリイちゃんの「ゆめいろ学院 Doki☆Doki参観日」" ProgComment="" />
+    <ProgItem PID="334026" TID="3586" StTime="20150905210000" EdTime="20150905213000" ChName="AT-X" ChID="20" Count="42" StOffset="0" SubTitle="学校の秘密を守れ！" Title="絶対無敵ライジンオー" ProgComment="" />
+    <ProgItem PID="335783" TID="3745" StTime="20150905210000" EdTime="20150905230000" ChName="文化放送(1134)" ChID="41" Count="23" StOffset="0" SubTitle="ゲスト：田所あずさ(前半)、岩田光央、Machico(後半)" Title="A&amp;G TRIBAL RADIO エジソン" ProgComment="" />
+    <ProgItem PID="335796" TID="3745" StTime="20150905210000" EdTime="20150905230000" ChName="超!A&amp;G+" ChID="156" Count="23" StOffset="0" SubTitle="ゲスト：田所あずさ(前半)、岩田光央、Machico(後半)" Title="A&amp;G TRIBAL RADIO エジソン" ProgComment="" />
+    <ProgItem PID="340498" TID="3771" StTime="20150905210000" EdTime="20150905213000" ChName="リスラジ" ChID="223" Count="56" StOffset="0" SubTitle="" Title="M×Mラボ" ProgComment="" />
+    <ProgItem PID="342405" TID="3434" StTime="20150905213000" EdTime="20150905220000" ChName="AT-X" ChID="20" Count="60" StOffset="0" SubTitle="夏だ！プールでラブMAX!" Title="プリパラ" ProgComment="" />
+    <ProgItem PID="337400" TID="2081" StTime="20150905220000" EdTime="20150905223000" ChName="TOKYO MX" ChID="19" Count="10" StOffset="0" SubTitle="その境界線の上に立ち(シン・レッド・ライン)" Title="IS &lt;インフィニット・ストラトス&gt;" ProgComment="" />
+    <ProgItem PID="339730" TID="285" StTime="20150905220000" EdTime="20150905223000" ChName="ラジオ関西(558)" ChID="133" Count="675" StOffset="0" SubTitle="" Title="堀江由衣の天使のたまご" ProgComment="" />
+    <ProgItem PID="342095" TID="2081" StTime="20150905220000" EdTime="20150905223000" ChName="サンテレビジョン" ChID="58" Count="10" StOffset="0" SubTitle="その境界線の上に立ち(シン・レッド・ライン)" Title="IS &lt;インフィニット・ストラトス&gt;" ProgComment="" />
+    <ProgItem PID="338915" TID="3835" StTime="20150905223000" EdTime="20150905230000" ChName="AT-X" ChID="20" Count="7" StOffset="0" SubTitle="執行者" Title="Fate/kaleid liner プリズマ☆イリヤ ツヴァイ ヘルツ！" ProgComment="" />
+    <ProgItem PID="338984" TID="3836" StTime="20150905223000" EdTime="20150905230000" ChName="TOKYO MX" ChID="19" Count="10" StOffset="0" SubTitle="" Title="ブシモのテレビ" ProgComment="" />
+    <ProgItem PID="335259" TID="3802" StTime="20150905230000" EdTime="20150905233000" ChName="AT-X" ChID="20" Count="10" StOffset="0" SubTitle="ジイ級クエスト" Title="下ネタという概念が存在しない退屈な世界" ProgComment="" />
+    <ProgItem PID="336247" TID="3817" StTime="20150905230000" EdTime="20150905233000" ChName="BS11デジタル" ChID="128" Count="9" StOffset="0" SubTitle="疑惑の蕾" Title="六花の勇者" ProgComment="" />
+    <ProgItem PID="339032" TID="2509" StTime="20150905230000" EdTime="20150905233000" ChName="TOKYO MX" ChID="19" Count="179" StOffset="0" SubTitle="" Title="リスアニ！TV" ProgComment="" />
+    <ProgItem PID="339082" TID="1207" StTime="20150905230000" EdTime="20150906000000" ChName="文化放送(1134)" ChID="41" Count="670" StOffset="0" SubTitle="Kalafina" Title="A&amp;Gメディアステーション こむちゃっとカウントダウン" ProgComment="" />
+    <ProgItem PID="339095" TID="1207" StTime="20150905230000" EdTime="20150906000000" ChName="超!A&amp;G+" ChID="156" Count="670" StOffset="0" SubTitle="Kalafina" Title="A&amp;Gメディアステーション こむちゃっとカウントダウン" ProgComment="" />
+    <ProgItem PID="337214" TID="3584" StTime="20150905233000" EdTime="20150905233500" ChName="三重テレビ" ChID="82" Count="25" StOffset="0" SubTitle="犬を飼おう" Title="Go!Go!家電男子" ProgComment="!9/12は放送休止" />
+    <ProgItem PID="340756" TID="3799" StTime="20150905233000" EdTime="20150906000000" ChName="とちぎテレビ" ChID="100" Count="22" StOffset="0" SubTitle="" Title="デュラララ!!×2 転" ProgComment="" />
+    <ProgItem PID="343846" TID="1802" StTime="20150905233000" EdTime="20150906000000" ChName="TOKYO MX" ChID="19" Count="" StOffset="0" SubTitle="#12.5「天網恢恢」" Title="デュラララ!!" ProgComment="特別編" />
+    <ProgItem PID="343847" TID="1802" StTime="20150905233000" EdTime="20150906000000" ChName="BS11デジタル" ChID="128" Count="" StOffset="0" SubTitle="#12.5「天網恢恢」" Title="デュラララ!!" ProgComment="特別編" />
+    <ProgItem PID="344498" TID="1802" StTime="20150905233000" EdTime="20150906000000" ChName="群馬テレビ" ChID="72" Count="" StOffset="0" SubTitle="#12.5「天網恢恢」" Title="デュラララ!!" ProgComment="特別編" />
+    <ProgItem PID="334968" TID="3800" StTime="20150906000000" EdTime="20150906003000" ChName="BS-TBS" ChID="16" Count="10" StOffset="0" SubTitle="常務 霧羽ナギサ" Title="Classroom☆Crisis" ProgComment="" />
+    <ProgItem PID="336599" TID="3821" StTime="20150906000000" EdTime="20150906003000" ChName="BS11デジタル" ChID="128" Count="10" StOffset="0" SubTitle="略奪" Title="Charlotte" ProgComment="" />
+    <ProgItem PID="336623" TID="3821" StTime="20150906000000" EdTime="20150906003000" ChName="TOKYO MX" ChID="19" Count="10" StOffset="0" SubTitle="略奪" Title="Charlotte" ProgComment="" />
+    <ProgItem PID="337958" TID="3821" StTime="20150906000000" EdTime="20150906003000" ChName="群馬テレビ" ChID="72" Count="10" StOffset="0" SubTitle="略奪" Title="Charlotte" ProgComment="" />
+    <ProgItem PID="339296" TID="1933" StTime="20150906000000" EdTime="20150906003000" ChName="文化放送(1134)" ChID="41" Count="649" StOffset="0" SubTitle="" Title="田村ゆかりのいたずら黒うさぎ" ProgComment="" />
+    <ProgItem PID="339322" TID="3117" StTime="20150906000000" EdTime="20150906003000" ChName="超!A&amp;G+" ChID="156" Count="127" StOffset="0" SubTitle="" Title="戸松遥のココロ☆ハルカス" ProgComment="" />
+    <ProgItem PID="340768" TID="3821" StTime="20150906000000" EdTime="20150906003000" ChName="とちぎテレビ" ChID="100" Count="10" StOffset="0" SubTitle="略奪" Title="Charlotte" ProgComment="" />
+    <ProgItem PID="334860" TID="3797" StTime="20150906003000" EdTime="20150906010000" ChName="TOKYO MX" ChID="19" Count="10" StOffset="0" SubTitle="その女シズカ" Title="WORKING!!!" ProgComment="" />
+    <ProgItem PID="334871" TID="3797" StTime="20150906003000" EdTime="20150906010000" ChName="BS11デジタル" ChID="128" Count="9" StOffset="0" SubTitle="危険な事情" Title="WORKING!!!" ProgComment="" />
+    <ProgItem PID="334932" TID="3797" StTime="20150906003000" EdTime="20150906010000" ChName="群馬テレビ" ChID="72" Count="10" StOffset="0" SubTitle="その女シズカ" Title="WORKING!!!" ProgComment="" />
+    <ProgItem PID="335330" TID="3803" StTime="20150906003000" EdTime="20150906010000" ChName="AT-X" ChID="20" Count="9" StOffset="0" SubTitle="箱根山中夜戦" Title="GATE 自衛隊 彼の地にて、斯く戦えり" ProgComment="" />
+    <ProgItem PID="336429" TID="3699" StTime="20150906003000" EdTime="20150906010000" ChName="BS-TBS" ChID="16" Count="22" StOffset="0" SubTitle="日常を越えるもの" Title="食戟のソーマ" ProgComment="" />
+    <ProgItem PID="336635" TID="3821" StTime="20150906003000" EdTime="20150906010000" ChName="チバテレビ" ChID="13" Count="10" StOffset="0" SubTitle="略奪" Title="Charlotte" ProgComment="" />
+    <ProgItem PID="336873" TID="3821" StTime="20150906003000" EdTime="20150906010000" ChName="tvk" ChID="8" Count="10" StOffset="0" SubTitle="略奪" Title="Charlotte" ProgComment="" />
+    <ProgItem PID="337143" TID="3821" StTime="20150906003000" EdTime="20150906010000" ChName="テレ玉" ChID="14" Count="10" StOffset="0" SubTitle="略奪" Title="Charlotte" ProgComment="" />
+    <ProgItem PID="338655" TID="3828" StTime="20150906003000" EdTime="20150906010000" ChName="KBS京都" ChID="66" Count="9" StOffset="0" SubTitle="体液がいっぱい" Title="監獄学園 プリズンスクール" ProgComment="" />
+    <ProgItem PID="339309" TID="3287" StTime="20150906003000" EdTime="20150906010000" ChName="文化放送(1134)" ChID="41" Count="88" StOffset="0" SubTitle="" Title="RADIOアニメロミックス ラブライブ！～のぞえりRadio Garden～" ProgComment="" />
+    <ProgItem PID="339335" TID="3118" StTime="20150906003000" EdTime="20150906010000" ChName="超!A&amp;G+" ChID="156" Count="127" StOffset="0" SubTitle="" Title="寿美菜子のラフラフ" ProgComment="" />
+    <ProgItem PID="340732" TID="3797" StTime="20150906003000" EdTime="20150906010000" ChName="とちぎテレビ" ChID="100" Count="10" StOffset="0" SubTitle="その女シズカ" Title="WORKING!!!" ProgComment="" />
+    <ProgItem PID="335455" TID="3807" StTime="20150906010000" EdTime="20150906013000" ChName="BS-TBS" ChID="16" Count="9" StOffset="0" SubTitle="だから私はかっこいいっ！" Title="青春×機関銃" ProgComment="" />
+    <ProgItem PID="335504" TID="3809" StTime="20150906010000" EdTime="20150906013000" ChName="TOKYO MX" ChID="19" Count="10" StOffset="0" SubTitle="" Title="戦姫絶唱シンフォギアGX" ProgComment="" />
+    <ProgItem PID="338225" TID="62" StTime="20150906010000" EdTime="20150906013000" ChName="tvk" ChID="8" Count="777" StOffset="0" SubTitle="" Title="アニメTV" ProgComment="" />
+    <ProgItem PID="339347" TID="3404" StTime="20150906010000" EdTime="20150906013000" ChName="超!A&amp;G+" ChID="156" Count="74" StOffset="0" SubTitle="" Title="あどりぶ" ProgComment="" />
+    <ProgItem PID="334895" TID="3798" StTime="20150906013000" EdTime="20150906020000" ChName="BS-TBS" ChID="16" Count="9" StOffset="0" SubTitle="スカーレットブルーム／お姉ちゃんの誕生日" Title="城下町のダンデライオン" ProgComment="" />
+    <ProgItem PID="335047" TID="3577" StTime="20150906003000" EdTime="20150906010000" ChName="BSフジ" ChID="17" Count="23" StOffset="3600" SubTitle="ゲスト：yozuca*" Title="アニソン・ハンター" ProgComment="!9/12の再放送は定刻放送" />
+    <ProgItem PID="335307" TID="3802" StTime="20150906013000" EdTime="20150906020000" ChName="TOKYO MX" ChID="19" Count="10" StOffset="0" SubTitle="ジイ級クエスト" Title="下ネタという概念が存在しない退屈な世界" ProgComment="" />
+    <ProgItem PID="339359" TID="3296" StTime="20150906013000" EdTime="20150906020000" ChName="超!A&amp;G+" ChID="156" Count="87" StOffset="0" SubTitle="" Title="大久保瑠美・原紗友里 青春学園 Girls High↑↑" ProgComment="" />
+    <ProgItem PID="339410" TID="1933" StTime="20150906013000" EdTime="20150906020000" ChName="ABCラジオ(1008)" ChID="38" Count="649" StOffset="0" SubTitle="" Title="田村ゆかりのいたずら黒うさぎ" ProgComment="" />
+    <ProgItem PID="334989" TID="3797" StTime="20150906015000" EdTime="20150906022000" ChName="テレビ愛知" ChID="59" Count="10" StOffset="0" SubTitle="その女シズカ" Title="WORKING!!!" ProgComment="" />
+    <ProgItem PID="336775" TID="3821" StTime="20150906015800" EdTime="20150906022800" ChName="MBS毎日放送" ChID="48" Count="10" StOffset="120" SubTitle="略奪" Title="Charlotte" ProgComment="" />
+    <ProgItem PID="338344" TID="3833" StTime="20150906015500" EdTime="20150906022500" ChName="日本テレビ" ChID="4" Count="9" StOffset="900" SubTitle="opt-out" Title="ガッチャマン クラウズ インサイト" ProgComment="" />
+    <ProgItem PID="337720" TID="3828" StTime="20150906022000" EdTime="20150906025000" ChName="テレビ愛知" ChID="59" Count="9" StOffset="0" SubTitle="体液がいっぱい" Title="監獄学園 プリズンスクール" ProgComment="" />
+    <ProgItem PID="341394" TID="3757" StTime="20150906023000" EdTime="20150906030000" ChName="超!A&amp;G+" ChID="156" Count="22" StOffset="0" SubTitle="" Title="れい＆ゆいの文化放送ホームランラジオ！" ProgComment="" />
+    <ProgItem PID="343848" TID="1802" StTime="20150906023000" EdTime="20150906030000" ChName="MBS毎日放送" ChID="48" Count="" StOffset="0" SubTitle="#12.5「天網恢恢」" Title="デュラララ!!" ProgComment="特別編" />
+    <ProgItem PID="343850" TID="3804" StTime="20150906025500" EdTime="20150906030000" ChName="ぎふチャン" ChID="83" Count="" StOffset="0" SubTitle="#134～#138" Title="Go!Go!家電男子 シーズン2" ProgComment="" />
+    <ProgItem PID="336860" TID="3817" StTime="20150906025800" EdTime="20150906032800" ChName="MBS毎日放送" ChID="48" Count="10" StOffset="120" SubTitle="絶体絶命" Title="六花の勇者" ProgComment="" />
+    <ProgItem PID="338905" TID="3835" StTime="20150906030000" EdTime="20150906033000" ChName="BS11デジタル" ChID="128" Count="7" StOffset="0" SubTitle="執行者" Title="Fate/kaleid liner プリズマ☆イリヤ ツヴァイ ヘルツ！" ProgComment="" />
+    <ProgItem PID="342322" TID="1594" StTime="20150906032800" EdTime="20150906042800" ChName="MBS毎日放送" ChID="48" Count="" StOffset="120" SubTitle="#6～#7" Title="戦国BASARA" ProgComment="!2話連続放送" />
+    <ProgItem PID="344140" TID="3310" StTime="20150906015500" EdTime="20150906015900" ChName="中京テレビ" ChID="80" Count="45" StOffset="7860" SubTitle="ちくわ(2)" Title="ニャンだ？フルチャンネル" ProgComment="" />
   </ProgItems>
 </syobocal>

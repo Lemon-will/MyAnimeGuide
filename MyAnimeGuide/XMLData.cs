@@ -11,7 +11,7 @@ using System.Xml;
 
 namespace MyAnimeGuide
 {
-    class XMLData
+    class XmlData
     {
         readonly string SHOBO_URL = "http://cal.syoboi.jp/cal_chk.php?days=1";
         readonly string XML_PATH = "ch.xml";
@@ -33,14 +33,16 @@ namespace MyAnimeGuide
             }
         }
 
-        public XMLData()
+        public XmlData()
         {
             LoadXml();
         }
 
         void LoadXml()
         {
-            if (!File.Exists(XML_PATH))
+            DateTime nowDateTime = DateTime.Now;
+            // ファイルがないか、現存しているXMLファイルが今日ダウンロードしたものでない場合新たにDLする
+            if (!File.Exists(XML_PATH) || File.GetLastWriteTime(XML_PATH).Date.CompareTo(nowDateTime.Date) < 0)
             {
                 webReqObj = WebRequest.Create(SHOBO_URL);
                 webResObj = webReqObj.GetResponse();
@@ -55,6 +57,9 @@ namespace MyAnimeGuide
             XmlToCollection();
         }
 
+        /// <summary>
+        /// XMLデータをコレクションanimesに突っ込む
+        /// </summary>
         void XmlToCollection()
         {
             animes.Clear();
@@ -62,28 +67,9 @@ namespace MyAnimeGuide
             XmlElement progItemsElement = (XmlElement)rootElement.FirstChild;
             foreach (XmlElement progItem in progItemsElement.ChildNodes)
             {
-                AnimeData anime = new AnimeData();
-                anime = MakeAnimeData(progItem);
+                AnimeData anime = new AnimeData(progItem);
                 animes.Add(anime);
-                Console.WriteLine(anime.Title);
             }
-        }
-
-        AnimeData MakeAnimeData(XmlElement e)
-        {
-            AnimeData data = new AnimeData();
-
-            data.PID = e.Attributes["PID"].Value;
-            data.TID = e.Attributes["TID"].Value;
-            data.StTime = e.Attributes["StTime"].Value;
-            data.EdTime = e.Attributes["EdTime"].Value;
-            data.ChName = e.Attributes["ChName"].Value;
-            data.ChID = e.Attributes["ChID"].Value;
-            data.Count = e.Attributes["Count"].Value;
-            data.SubTitle = e.Attributes["SubTitle"].Value;
-            data.Title = e.Attributes["Title"].Value;
-
-            return data;
         }
     }
 }

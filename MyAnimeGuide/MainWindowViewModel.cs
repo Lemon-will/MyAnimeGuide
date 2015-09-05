@@ -10,9 +10,8 @@ namespace MyAnimeGuide.ViewModel
 
         public MainWindowViewModel()
         {
-            XMLData xmlData = new XMLData();
-            AnimeList = xmlData.Animes;
-            Console.WriteLine(AnimeList.Count);
+            XmlData xmlData = new XmlData();
+            AnimeListforView = xmlData.Animes;
         }
 
         //override
@@ -26,7 +25,7 @@ namespace MyAnimeGuide.ViewModel
         }
 
         ObservableCollection<AnimeData> _animes = new ObservableCollection<AnimeData>();
-        public ObservableCollection<AnimeData> AnimeList
+        public ObservableCollection<AnimeData> AnimeListforView
         {
             get { return _animes; }
             set

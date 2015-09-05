@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using System.ComponentModel;
-using Microsoft.TeamFoundation.MVVM;
 namespace MyAnimeGuide
 {
-    class ModelBase : ViewModelBase, IDataErrorInfo
+    class ModelBase : IDataErrorInfo
     {
         private readonly Dictionary<string, string> _errors = new Dictionary<string, string>();
 
