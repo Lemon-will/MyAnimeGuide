@@ -6,12 +6,19 @@
         xmlns:vm="clr-namespace:MyAnimeGuide.ViewModel"
         xmlns:local="clr-namespace:MyAnimeGuide"
         mc:Ignorable="d"
-        Title="MyAnimeGuide" Height="350" Width="525">
+        Title="MyAnimeGuide" Height="480" Width="640">
     <Window.DataContext>
         <vm:MainWindowViewModel x:Name="ViewModel" />
     </Window.DataContext>
     <Grid>
-        <DataGrid Name="AnimeDataGrid" AutoGenerateColumns="False" IsReadOnly="True" ItemsSource="{Binding Path=AnimeListforView}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0">
+            <MenuItem Header="File(_F)"/>
+        </Menu>
+        <DataGrid Name="AnimeDataGrid" AutoGenerateColumns="False" IsReadOnly="True" ItemsSource="{Binding Path=AnimeListforView}" Grid.Row="1" Width="Auto">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Title" Binding="{Binding Title}" />
                 <DataGridTextColumn Header="Time" Binding="{Binding AnimeTime.AnimeDateTimeforView}" />

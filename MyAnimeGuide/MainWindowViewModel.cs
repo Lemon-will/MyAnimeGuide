@@ -7,23 +7,11 @@ namespace MyAnimeGuide.ViewModel
     class MainWindowViewModel : INotifyPropertyChanged
     {
 
+        // 常にすべてのAnimeData情報を保持するリスト
+        ObservableCollection<AnimeData> allAnimes = null;
+        public ChXmlData ChDataInstance { get; }
 
-        public MainWindowViewModel()
-        {
-            XmlData xmlData = new XmlData();
-            AnimeListforView = xmlData.Animes;
-        }
-
-        //override
-        public event PropertyChangedEventHandler PropertyChanged;
-        private void OnPropertyChanged(string name)
-        {
-            if (PropertyChanged != null)
-            {
-                PropertyChanged(this, new PropertyChangedEventArgs(name));
-            }
-        }
-
+        // 実際に表示するAnimeDataのリスト
         ObservableCollection<AnimeData> _animes = new ObservableCollection<AnimeData>();
         public ObservableCollection<AnimeData> AnimeListforView
         {
@@ -35,7 +23,24 @@ namespace MyAnimeGuide.ViewModel
             }
         }
 
+        public MainWindowViewModel()
+        {
+            AnimeXmlData xmlData = new AnimeXmlData();
+            allAnimes = xmlData.Animes;
+            AnimeListforView = new ObservableCollection<AnimeData>(allAnimes);
 
+            SelectChWindow selWin = new SelectChWindow();
+            selWin.ShowDialog();
+        }
 
+        //override
+        public event PropertyChangedEventHandler PropertyChanged;
+        private void OnPropertyChanged(string name)
+        {
+            if (PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(name));
+            }
+        }
     }
 }
