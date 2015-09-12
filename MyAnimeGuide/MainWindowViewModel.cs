@@ -11,6 +11,16 @@ namespace MyAnimeGuide.ViewModel
         ObservableCollection<AnimeData> allAnimes = null;
         public ChXmlData ChDataInstance { get; }
 
+        public MainWindowViewModel()
+        {
+            AnimeXmlData xmlData = new AnimeXmlData();
+            allAnimes = xmlData.Animes;
+            AnimeListforView = new ObservableCollection<AnimeData>(allAnimes);
+
+            SelectChWindow selWin = new SelectChWindow();
+            selWin.ShowDialog();
+        }
+
         // 実際に表示するAnimeDataのリスト
         ObservableCollection<AnimeData> _animes = new ObservableCollection<AnimeData>();
         public ObservableCollection<AnimeData> AnimeListforView
@@ -21,16 +31,6 @@ namespace MyAnimeGuide.ViewModel
                 _animes = value;
                 OnPropertyChanged("AnimeList");
             }
-        }
-
-        public MainWindowViewModel()
-        {
-            AnimeXmlData xmlData = new AnimeXmlData();
-            allAnimes = xmlData.Animes;
-            AnimeListforView = new ObservableCollection<AnimeData>(allAnimes);
-
-            SelectChWindow selWin = new SelectChWindow();
-            selWin.ShowDialog();
         }
 
         //override

@@ -14,7 +14,6 @@ namespace MyAnimeGuide
             ChID = chItem.SelectSingleNode(@"ChID").InnerText;
             ChName = chItem.SelectSingleNode(@"ChName").InnerText;
             ChGroupID = chItem.SelectSingleNode(@"ChGID").InnerText;
-            ChGroupName = ChXmlData.GroupID_NameHash[ChGroupID];
         }
     }
 }

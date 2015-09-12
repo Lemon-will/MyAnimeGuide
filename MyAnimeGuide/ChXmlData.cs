@@ -13,8 +13,8 @@ namespace MyAnimeGuide
         XmlDocument ChXmlDoc = new XmlDocument();
         XmlDocument ChGroupXmlDoc = new XmlDocument();
 
-        public static Dictionary<string, string> GroupID_NameHash { get; set; }
-        public static Dictionary<string, ChData> AllChData { get; set; }
+        public static List<ChGroupData> AllChGroupData { get; set; }
+        public static List<ChData> AllChData { get; set; }
 
         public ChXmlData()
         {
@@ -26,19 +26,21 @@ namespace MyAnimeGuide
             XmlElement chGroupRootElement = ChGroupXmlDoc.DocumentElement;
             XmlElement chGroupItemsElement = (XmlElement)chGroupRootElement.LastChild;
 
-            GroupID_NameHash = new Dictionary<string, string>();
-            AllChData = new Dictionary<string, ChData>();
 
-            foreach (XmlElement chGroupItem in chGroupItemsElement.ChildNodes)
+            AllChGroupData = new List<ChGroupData>();
+            AllChData = new List<ChData>();
+
+
+            foreach(XmlElement chGroupItem in chGroupItemsElement.ChildNodes)
             {
-                string str = chGroupItem.SelectSingleNode(@"./ChGroupName").InnerText;
-                GroupID_NameHash.Add(chGroupItem.SelectSingleNode(@"./ChGID").InnerText, chGroupItem.SelectSingleNode(@"./ChGroupName").InnerText);
+                ChGroupData chGroupData = new ChGroupData(chGroupItem);
+                AllChGroupData.Add(chGroupData);
             }
 
             foreach (XmlElement chItem in chItemsElement.ChildNodes)
             {
                 ChData chData = new ChData(chItem);
-                AllChData.Add(chData.ChName, chData);
+                AllChData.Add(chData);
             }
 
 

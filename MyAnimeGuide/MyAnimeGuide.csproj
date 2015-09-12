@@ -83,6 +83,8 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="ChData.cs" />
+    <Compile Include="ChGroupData.cs" />
+    <Compile Include="ChGroupPairData.cs" />
     <Compile Include="SelectChWindow.xaml.cs">
       <DependentUpon>SelectChWindow.xaml</DependentUpon>
     </Compile>

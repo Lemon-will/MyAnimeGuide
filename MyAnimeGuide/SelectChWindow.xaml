@@ -11,13 +11,18 @@
         <vm:SelectChWindowViewModel x:Name="ViewModel" />
     </Window.DataContext>
     <Grid>
-        <ListBox ItemsSource="{Binding Path=AllChList}" x:Name="listBox" HorizontalAlignment="Left" Height="Auto" Margin="10,10,0,0" VerticalAlignment="Top" Width="Auto">
-            <ListBox.ItemTemplate>
+        <TreeView Name="ChDataTree" ItemsSource="{Binding AllChGroupPairs}">
+            <TreeView.ItemTemplate>
                 <DataTemplate>
-                    <TextBlock Text="{Binding ChName}"></TextBlock>
+                    <TreeViewItem Header="{Binding ChGroupData.ChGroupID}" ItemsSource="{Binding ChildChDataList}">
+                        <TreeViewItem.ItemTemplate>
+                            <DataTemplate>
+                                <TreeViewItem Header="{Binding ChName}" />
+                            </DataTemplate>
+                        </TreeViewItem.ItemTemplate>
+                    </TreeViewItem>
                 </DataTemplate>
-            </ListBox.ItemTemplate>
-        </ListBox>
-
+            </TreeView.ItemTemplate>
+        </TreeView>
     </Grid>
 </Window>
