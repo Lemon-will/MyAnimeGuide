@@ -1,16 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using MyAnimeGuide.ViewModel;
 
 namespace MyAnimeGuide
 {
@@ -22,6 +12,13 @@ namespace MyAnimeGuide
         public SelectChWindow()
         {
             InitializeComponent();
+            SelectChWindowViewModel viewModel = new SelectChWindowViewModel();
+            this.DataContext = viewModel;
+            if(viewModel.CloseAction == null)
+            {
+                //() => hogehoge は入力なしのラムダ式(ここでは、ウィンドウをクローズすることをViewmodelのCloseActionにポインタとして渡す)
+                viewModel.CloseAction = new Action(() => this.Close());
+            }
         }
     }
 }

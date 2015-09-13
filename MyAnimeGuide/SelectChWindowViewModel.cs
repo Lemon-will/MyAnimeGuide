@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.IO;
 using System.Windows;
+using System.Windows.Input;
 using System.Xml;
 
 namespace MyAnimeGuide.ViewModel
@@ -13,36 +14,17 @@ namespace MyAnimeGuide.ViewModel
         readonly string CONFIG_PATH = @"config.xml";
         public ObservableCollection<string> MyChNameList { get; set; }
         public ObservableCollection<ChGroupPairData> AllChGroupPairs { get; set; }
-        public Dictionary<string, ObservableCollection<ChData>> AllChGroupDict { get; set; }
+        //View側に結びつく画面を閉じるためのプロパティ
+        public Action CloseAction { get; set; }
 
         public SelectChWindowViewModel()
         {
+            //プロパティの初期化
             ChXmlData chXmlData = new ChXmlData();
             AllChGroupPairs = new ObservableCollection<ChGroupPairData>();
-
-            //子ChDataリストを初期化済みのChGroupPairDataをChGroupの数だけ用意
-            foreach (ChGroupData chGroupData in ChXmlData.AllChGroupData)
-            {
-                if (chGroupData.ChGroupName != "")  //ChGroupID:23が空のグループを作っているので除外
-                {
-                    AllChGroupPairs.Add(new ChGroupPairData(chGroupData));
-                }
-            }
-            int countOfCh = 0;
-            //ChDataをすべて該当のグループのChGroupPairDataの子リストに代入
-            foreach (ChData chData in ChXmlData.AllChData)
-            {
-                foreach (ChGroupPairData pairData in AllChGroupPairs)
-                {
-                    if (chData.ChGroupID == pairData.ChGroupData.ChGroupID)
-                    {
-                        chData.ChGroupName = pairData.ChGroupData.ChGroupName;
-                        pairData.ChildChDataList.Add(chData);
-                    }
-                }
-            }
-
             MyChNameList = new ObservableCollection<string>();
+
+            InitAllChGroupPairs();
             InitMyChList();
         }
 
@@ -62,6 +44,7 @@ namespace MyAnimeGuide.ViewModel
             {
                 MessageBox.Show("設定ファイル(config.xml)が存在しません。新たに設定しなおしてください。", "MyAnimeGuide Information", MessageBoxButton.OK, MessageBoxImage.Information);
                 MyChNameList = new ObservableCollection<string>();
+                SaveConfigFile();
             }
             else
             {
@@ -74,6 +57,31 @@ namespace MyAnimeGuide.ViewModel
                 }
             }
         }
+
+        private void InitAllChGroupPairs()
+        {
+            //子ChDataリストを初期化済みのChGroupPairDataをChGroupの数だけ用意
+            foreach (ChGroupData chGroupData in ChXmlData.AllChGroupData)
+            {
+                if (chGroupData.ChGroupName != "")  //ChGroupID:23が空のグループを作っているので除外
+                {
+                    AllChGroupPairs.Add(new ChGroupPairData(chGroupData));
+                }
+            }
+            //ChDataをすべて該当のグループのChGroupPairDataの子リストに代入
+            foreach (ChData chData in ChXmlData.AllChData)
+            {
+                foreach (ChGroupPairData pairData in AllChGroupPairs)
+                {
+                    if (chData.ChGroupID == pairData.ChGroupData.ChGroupID)
+                    {
+                        chData.ChGroupName = pairData.ChGroupData.ChGroupName;
+                        pairData.ChildChDataList.Add(chData);
+                    }
+                }
+            }
+        }
+
 
         private void SaveConfigFile()
         {
@@ -96,5 +104,35 @@ namespace MyAnimeGuide.ViewModel
             configXmlDoc.Save(CONFIG_PATH);
         }
 
+        private void ExecuteRegisterCommand()
+        {
+            MyChNameList = new ObservableCollection<string>();
+            foreach (ChGroupPairData pairData in AllChGroupPairs)
+            {
+                foreach (ChData chData in pairData.ChildChDataList)
+                {
+                    if (chData.IsChecked)
+                    {
+                        MyChNameList.Add(chData.ChName);
+                    }
+                }
+            }
+            SaveConfigFile();
+            CloseAction();
+        }
+
+        //以下Command関係
+        RelayCommand _registerCommand;
+        public ICommand RegisterCommand
+        {
+            get
+            {
+                if(_registerCommand == null)
+                {
+                    _registerCommand = new RelayCommand(param => this.ExecuteRegisterCommand());
+                }
+                return _registerCommand;
+            }
+        }
     }
 }
