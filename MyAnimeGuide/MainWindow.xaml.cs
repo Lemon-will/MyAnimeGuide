@@ -22,7 +22,8 @@ namespace MyAnimeGuide
     {
         public MainWindow()
         {
-            InitializeComponent();
+            this.InitializeComponent();
+            this.DataContext = new MyAnimeGuide.ViewModel.MainWindowViewModel();
         }
     }
 }

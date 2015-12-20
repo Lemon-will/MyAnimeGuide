@@ -4,12 +4,8 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MyAnimeGuide"
-        xmlns:vm = "clr-namespace:MyAnimeGuide.ViewModel"
         mc:Ignorable="d"
         Title="SelectChWindow" Height="600" Width="300">
-    <Window.DataContext>
-        <vm:SelectChWindowViewModel x:Name="ViewModel" />
-    </Window.DataContext>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -25,7 +21,7 @@
                     <TreeViewItem ItemsSource="{Binding ChildChDataList}">
                         <TreeViewItem.Header>
                             <DockPanel>
-                                <CheckBox IsChecked="{Binding IsChecked}" />
+                                <CheckBox IsChecked="{Binding IsChecked}" IsThreeState="True"/>
                                 <TextBlock Text="{Binding ChGroupData.ChGroupName}" />
                             </DockPanel>
                         </TreeViewItem.Header>
@@ -45,6 +41,6 @@
                 </DataTemplate>
             </TreeView.ItemTemplate>
         </TreeView>
-        <Button  Content="登録" Command="{Binding RegisterCommand}" Grid.Row="2"/>
+        <Button Content="チャンネル登録" Command="{Binding RegisterCommand}" Grid.Row="2"/>
     </Grid>
 </Window>

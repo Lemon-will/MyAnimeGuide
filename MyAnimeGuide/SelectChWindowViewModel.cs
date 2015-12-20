@@ -11,8 +11,6 @@ namespace MyAnimeGuide.ViewModel
 {
     class SelectChWindowViewModel : INotifyPropertyChanged
     {
-        readonly string CONFIG_PATH = @"data/config.xml";
-        private List<string> MyChNameList { get; set; }
         public ObservableCollection<ChGroupPairData> AllChGroupPairs { get; set; }
         //View側に結びつく画面を閉じるためのプロパティ
         public Action CloseAction { get; set; }
@@ -22,7 +20,7 @@ namespace MyAnimeGuide.ViewModel
             //プロパティの初期化
             ChXmlData chXmlData = new ChXmlData();
             AllChGroupPairs = new ObservableCollection<ChGroupPairData>();
-            MyChNameList = new List<string>();
+            MainWindowViewModel.MyChNameList = new List<string>();
 
             InitMyChList();
             InitAllChGroupPairs();
@@ -40,21 +38,22 @@ namespace MyAnimeGuide.ViewModel
 
         private void InitMyChList()
         {
-            if (!File.Exists(CONFIG_PATH))
+            if (!File.Exists(Path.CONFIG_PATH))
             {
                 MessageBox.Show("設定ファイル(config.xml)が存在しません。新たに設定しなおしてください。", "MyAnimeGuide Information", MessageBoxButton.OK, MessageBoxImage.Information);
-                MyChNameList = new List<string>();
+                MainWindowViewModel.MyChNameList = new List<string>();
                 SaveConfigFile();
             }
             else
             {
                 XmlDocument configXmlDoc = new XmlDocument();
-                configXmlDoc.Load(CONFIG_PATH);
+                configXmlDoc.Load(Path.CONFIG_PATH);
                 XmlNodeList allChNameXmlNodes = configXmlDoc.SelectNodes(@"//myChName");
-                foreach (XmlNode chNameNode in allChNameXmlNodes)
-                {
-                    MyChNameList.Add(chNameNode.InnerText);
-                }
+                if (allChNameXmlNodes != null)
+                    foreach (XmlNode chNameNode in allChNameXmlNodes)
+                    {
+                        MainWindowViewModel.MyChNameList.Add(chNameNode.InnerText);
+                    }
             }
         }
 
@@ -77,11 +76,13 @@ namespace MyAnimeGuide.ViewModel
                     {
                         chData.ChGroupName = pairData.ChGroupData.ChGroupName;
                         //チェックボックスの初期化(Ischecked)
-                        foreach (String myChName in MyChNameList)
+                        foreach (String myChName in MainWindowViewModel.MyChNameList)
                         {
                             if (myChName == chData.ChName)
                             {
                                 chData.IsChecked = true;
+                                if (pairData.IsChecked == false)
+                                    pairData.IsChecked = null;
                             }
                         }
                         pairData.ChildChDataList.Add(chData);
@@ -103,25 +104,25 @@ namespace MyAnimeGuide.ViewModel
             XmlElement myChNamesElement = configXmlDoc.CreateElement("myChNames");
             configRoot.AppendChild(myChNamesElement);
 
-            foreach (string chName in MyChNameList)
+            foreach (string chName in MainWindowViewModel.MyChNameList)
             {
                 XmlElement myChNameElement = configXmlDoc.CreateElement("myChName");
                 myChNameElement.InnerText = chName;
                 myChNamesElement.AppendChild(myChNameElement);
             }
-            configXmlDoc.Save(CONFIG_PATH);
+            configXmlDoc.Save(Path.CONFIG_PATH);
         }
 
         private void ExecuteRegisterCommand()
         {
-            MyChNameList = new List<string>();
+            MainWindowViewModel.MyChNameList = new List<string>();
             foreach (ChGroupPairData pairData in AllChGroupPairs)
             {
                 foreach (ChData chData in pairData.ChildChDataList)
                 {
-                    if (chData.IsChecked)
+                    if (chData.IsChecked == true)
                     {
-                        MyChNameList.Add(chData.ChName);
+                        MainWindowViewModel.MyChNameList.Add(chData.ChName);
                     }
                 }
             }

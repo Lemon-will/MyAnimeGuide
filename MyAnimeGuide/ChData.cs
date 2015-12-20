@@ -10,8 +10,8 @@ namespace MyAnimeGuide
         public string ChName { get; set; }
         public string ChGroupID { get; set; }
         public string ChGroupName { get; set; }
-        bool _isChecked;
-        public bool IsChecked
+        Nullable<bool> _isChecked = false;
+        public Nullable<bool> IsChecked
         {
             get
             {
@@ -26,9 +26,9 @@ namespace MyAnimeGuide
 
         public ChData(XmlElement chItem)
         {
-            ChID = chItem.SelectSingleNode(@"ChID").InnerText;
-            ChName = chItem.SelectSingleNode(@"ChName").InnerText;
-            ChGroupID = chItem.SelectSingleNode(@"ChGID").InnerText;
+            this.ChID = chItem.SelectSingleNode(@"ChID").InnerText;
+            this.ChName = chItem.SelectSingleNode(@"ChName").InnerText;
+            this.ChGroupID = chItem.SelectSingleNode(@"ChGID").InnerText;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

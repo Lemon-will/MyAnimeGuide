@@ -5,8 +5,8 @@ namespace MyAnimeGuide
 {
     class AnimeXmlData
     {
-        readonly string SHOBO_URL = "http://cal.syoboi.jp/cal_chk.php?days=7";
-        readonly string XML_PATH = "data/ch.xml";
+        readonly string SHOBO_URL = "http://cal.syoboi.jp/cal_chk.php?days=30";
+        readonly string XML_PATH = System.IO.Directory.GetCurrentDirectory() + @"\data\animeData.xml";
         XmlDocument xmlDocObj = new XmlDocument();
         ObservableCollection<AnimeData> _animes = new ObservableCollection<AnimeData>();
 

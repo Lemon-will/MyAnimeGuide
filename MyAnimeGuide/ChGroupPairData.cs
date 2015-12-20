@@ -1,4 +1,5 @@
-﻿using System.Collections.ObjectModel;
+﻿using System;
+using System.Collections.ObjectModel;
 
 namespace MyAnimeGuide
 {
@@ -6,8 +7,8 @@ namespace MyAnimeGuide
     {
         public ChGroupData ChGroupData { get; set; }
         public ObservableCollection<ChData> ChildChDataList { get; set; }
-        private bool _isChecked = false;
-        public bool IsChecked
+        private Nullable<bool> _isChecked = false;
+        public Nullable<bool> IsChecked
         {
             get
             {
@@ -18,7 +19,10 @@ namespace MyAnimeGuide
                 _isChecked = value;
                 foreach (ChData chData in ChildChDataList)
                 {
-                    chData.IsChecked = value;
+                    if (value != null) 
+                    {
+                        chData.IsChecked = value;
+                    }
                 }
                 System.Console.WriteLine(ChGroupData.ChGroupName + value);
             }

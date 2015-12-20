@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows;
+using MyAnimeGuide;
 using MyAnimeGuide.ViewModel;
 
 namespace MyAnimeGuide
@@ -11,7 +12,7 @@ namespace MyAnimeGuide
     {
         public SelectChWindow()
         {
-            InitializeComponent();
+            this.InitializeComponent();
             SelectChWindowViewModel viewModel = new SelectChWindowViewModel();
             this.DataContext = viewModel;
             if (viewModel.CloseAction == null)

@@ -8,8 +8,8 @@ namespace MyAnimeGuide
         readonly string SYOBO_CH_URL = "http://cal.syoboi.jp/db.php?Command=ChLookup";
         readonly string SYOBO_GROUP_CH_URL = "http://cal.syoboi.jp/db.php?Command=ChGroupLookup";
         readonly string CURRENT_FOLDER_PATH = System.IO.Directory.GetCurrentDirectory();
-        readonly string CH_XML_PATH = @"data/ch_id.xml";
-        readonly string CH_GROUP_XML_PATH = @"data/ch_group_id.xml";
+        readonly string CH_XML_PATH = System.IO.Directory.GetCurrentDirectory() + @"\data\ch_id.xml";
+        readonly string CH_GROUP_XML_PATH = System.IO.Directory.GetCurrentDirectory() + @"\data\ch_group_id.xml";
 
         XmlDocument ChXmlDoc = new XmlDocument();
         XmlDocument ChGroupXmlDoc = new XmlDocument();

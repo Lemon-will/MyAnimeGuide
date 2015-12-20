@@ -1,4 +1,6 @@
-﻿using System.Xml;
+﻿using System;
+using System.ComponentModel;
+using System.Xml;
 
 namespace MyAnimeGuide
 {

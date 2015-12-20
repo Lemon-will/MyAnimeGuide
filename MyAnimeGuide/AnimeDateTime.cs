@@ -12,7 +12,7 @@ namespace MyAnimeGuide
         {
             StDateTime = GetDateTimefromString(StTime);
             EdDateTime = GetDateTimefromString(EdTime);
-            AnimeDateTimeforView = StDateTime.TimeOfDay.ToString() + "～" + EdDateTime.TimeOfDay.ToString();
+            AnimeDateTimeforView = StDateTime.ToString() + "～" + EdDateTime.TimeOfDay.ToString();
         }
 
         /// <summary>
